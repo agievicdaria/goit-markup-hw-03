@@ -72,6 +72,9 @@ body {
 
 .header-logo {
   margin-right: 93px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-family: "Raleway", sans-serif;
   color: #000000;
