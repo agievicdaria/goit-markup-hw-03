@@ -190,6 +190,10 @@ body {
   display: flex;
 }
 
+.features-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -218,6 +222,10 @@ body {
   display: flex;
 }
 
+.works-item {
+  flex-basis: calc((100% - 30px * 2) / 3);
+}
+
 .works-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -241,6 +249,8 @@ body {
 }
 
 .team-item {
+  flex-basis: calc((100% - 90px) / 4);
+
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -361,17 +371,11 @@ body {
 }
 
 .projects-item {
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc((100% / 3 - 3opx));
   margin-left: 30px;
   margin-top: 30px;
 
   background: var(--additional-color);
-
-  /* outline: 1px solid red; */
-}
-
-.projects-item-photo {
-  /* width: 100%; */
 }
 
 .projects-description {
